@@ -1,3 +1,3 @@
 # natcat_theme
 
-Custom theme for artist client
+Custom theme for artist client - build currently in progress
