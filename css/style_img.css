@@ -20,7 +20,7 @@
 	position:absolute;
 	top:0px;
 	left:0px;
-	background:#000 url(../images/nav.png) no-repeat -20% 50%;
+	background: url(../images/nav.png) no-repeat -20% 50%;
 	width:28px;
 	height:100%;
 	text-indent:-9000px;
