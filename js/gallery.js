@@ -68,7 +68,7 @@ $(function() {
 				// (not necessary) preloading the images here...
 				$items.add('<img src="images/ajax-loader.gif"/><img src="images/black.png"/>').imagesLoaded( function() {
 					// add options
-					_addViewModes();
+					//_addViewModes();
 					
 					// add large image wrapper
 					_addImageWrapper();
