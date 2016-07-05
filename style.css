@@ -33,7 +33,7 @@ body {
 
 #slide-1 {
   background: url(images/feet.jpg) no-repeat 50% 50% fixed;
-  background-size: 40%;
+  background-size: cover;
 }
 
 .navbar-custom {
