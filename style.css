@@ -32,7 +32,7 @@ body {
 }
 
 #slide-1 {
-  background: url(images/feet.jpg) no-repeat 50% 50% fixed;
+  background: url('images/feet.jpg') no-repeat 50% 50% fixed;
   background-size: cover;
 }
 
@@ -131,7 +131,10 @@ body {
   color: rgb(255,255,255);
 }
 
-#slide-5 {
+#slide-5,
+#slide-4,
+#slide-3,
+#slide-2 {
     width:auto;
     height:auto;
     padding-bottom: 40px;
