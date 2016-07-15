@@ -1,4 +1,19 @@
 /*
+Theme Name: natcat
+Author: resiakminor
+Author URI: http://wolf-hill.com/
+Description: The 2016 theme for Nathan Catlin
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 
+Text Domain: natcat
+
+This theme is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*
  * Globals
  */
 
@@ -31,8 +46,8 @@ body {
   text-align: center;
 }
 
-#slide-1 {
-  background: url('images/feet.jpg') no-repeat 50% 50% fixed;
+#home {
+  background: url('http://nathancatlin.wolf-hill.com/wp-content/themes/natcat/images/feet.jpg') no-repeat 50% 50% fixed;
   background-size: cover;
 }
 
@@ -131,10 +146,10 @@ body {
   color: rgb(255,255,255);
 }
 
-#slide-5,
-#slide-4,
-#slide-3,
-#slide-2 {
+#prints,
+#paintings,
+#murals,
+#cv {
     width:auto;
     height:auto;
     padding-bottom: 40px;
