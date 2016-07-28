@@ -1,3 +1,5 @@
+jQuery( document ).ready( function($){
+
 $(function() {
 	// ======================= imagesLoaded Plugin ===============================
 	// https://github.com/desandro/imagesloaded
@@ -66,7 +68,7 @@ $(function() {
 			init			= function() {
 				
 				// (not necessary) preloading the images here...
-				$items.add('<img src="images/ajax-loader.gif"/><img src="images/black.png"/>').imagesLoaded( function() {
+				$items.add('<img src="http://nathancatlin.wolf-hill.com/images/ajax-loader.gif"/><img src="http://nathancatlin.wolf-hill.com/images/black.png"/>').imagesLoaded( function() {
 					// add options
 					//_addViewModes();
 					
@@ -257,4 +259,6 @@ $(function() {
 	var $new  = $('<li><a href="#"><img src="images/thumbs/1.jpg" data-large="images/1.jpg" alt="image01" data-description="From off a hill whose concave womb reworded" /></a></li>');
 	Gallery.addItems( $new );
 	*/
+});
+
 });
