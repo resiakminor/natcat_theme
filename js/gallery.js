@@ -50,7 +50,7 @@ $(function() {
 	};
 
 	// gallery container
-	var $rgGallery			= $('.rg-gallery'),
+	var $rgGallery			= $('.rg-gallery-2,.rg-gallery-3,.rg-gallery-4'),
 	// carousel container
 	$esCarousel			= $rgGallery.find('div.es-carousel-wrapper'),
 	// the carousel items
