@@ -48,8 +48,6 @@
                                                 );
                 
                                                 $attachments = get_posts($args);
-                
-                                                $post_count = count ($attachments);
 
                                                 if($attachments) {
                                                     foreach ($attachments as $attachment) {
